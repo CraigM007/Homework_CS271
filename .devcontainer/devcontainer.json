@@ -1,0 +1,16 @@
+{
+    "name": "PFW ARM Lab Environment",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mshr-h.Verilog-HDL-Support",
+                "surfer-project.surfer"
+            ]
+        }
+    },
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y iverilog gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu"
+}

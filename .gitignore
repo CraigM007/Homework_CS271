@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+*.o
+*.out
+*.mem
+*.vvp
+*.vcd
+
+# Node (if any)
+node_modules/
+build/
+bin/
+
+# Temporary files
+~$*
+*.tmp
+
+# Instructor-only materials (not for students)
+Professor_Lab_Templates/
+.clauderc
+solutions/
+*.elf
