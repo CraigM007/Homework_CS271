@@ -66,7 +66,6 @@ sum_loop:
     // Syntax: B.NE label
 
     // YOUR CODE HERE
-    CMP X0, #0
     B.NE sum_loop
 
     // =========================================================================
